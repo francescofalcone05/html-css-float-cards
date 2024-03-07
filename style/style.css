@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    padding: 15px;
+    font-size: 4em;
+    color: rgb(4, 0, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.first-container{
+    background-color: black;
+    width: calc(80% / 3);
+    height: fit-content;
+    float: left;
+    color: white;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+["email"]{
+    color: blue;
+}
+
+span{
+    padding: 10px;
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+
+strong{
+    font-size: 1.4em;
+}
+
+.email{
+    color: aqua;
+}
